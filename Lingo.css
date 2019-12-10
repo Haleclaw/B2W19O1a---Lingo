@@ -1,0 +1,30 @@
+body{
+	background-color: #8F8F83 ;
+
+}
+a{
+	margin-left: 10px;
+	margin-right: 70px;
+}
+#game-container{
+	background-color: #E3E476  ;
+	height: 200px;
+
+}
+#pagina{
+	width: 500px;
+	margin: 0px auto;
+	margin-top: 10px;
+}
+#white{
+	background-color: white;
+	width: 500px;
+	height: 100px;
+}
+#button{
+	margin-left: 220px;
+	margin-bottom: 20px;
+}
+.input{
+ margin-left: 42px;
+}
