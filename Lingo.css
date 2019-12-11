@@ -1,5 +1,6 @@
 body{
-	background-color: #8F8F83 ;
+	background-image: url("img/background.jpg");
+	
 
 }
 a{
@@ -8,7 +9,8 @@ a{
 }
 #game-container{
 	background-color: #E3E476  ;
-	height: 200px;
+	height: 300px;
+
 
 }
 #pagina{
@@ -21,7 +23,7 @@ a{
 	box-sizing: border-box;
 	padding-top: 7px;
 	width: 500px;
-	height: 100px;
+	height: 250px;
 	font-size: 50px;
 	text-align: center;
 
