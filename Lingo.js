@@ -1,6 +1,7 @@
 // Lingo game //
 
 var x = 0
+var eind = false
 var word = words[Math.floor((Math.random() * 479) + 1)]
 document.getElementById("Box"+x+"0").innerHTML = word[0]
 console.log(word)
@@ -31,8 +32,17 @@ function check(){
                   
 }	
 x++
+if( x == 5){
+	eind = true
+}
+if( eind == true){
+	gewonnen()
+}
 
 }
 function gewonnen(){
-	
+	document.getElementById("button1").disabled = true; 
+}
+function restart(){
+	location.reload()
 }
