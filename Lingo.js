@@ -25,10 +25,21 @@ function check(){
        
              	 document.getElementById("Box"+x+i).style.backgroundColor = "yellow"
              	 document.getElementById('Box'+x+i).style.borderRadius = '90px'
-             	 document.getElementById("Box"+x+i).innerHTML = letter[i];
-
-             	
+             	 document.getElementById("Box"+x+i).innerHTML = letter[i];	
              }
+             else{
+             	 document.getElementById("Box"+x+i).style.backgroundColor = "white"
+             	 document.getElementById('Box'+x+i).style.borderRadius = '0px'
+             	 
+             	 if ( letter[i] == undefined){
+             	 	document.getElementById("Box"+x+i).innerHTML = "?"
+             	 }
+             	 else {
+             	 	document.getElementById("Box"+x+i).innerHTML = letter[i];
+             	 }
+             }
+
+            
                   
 }	
 x++
