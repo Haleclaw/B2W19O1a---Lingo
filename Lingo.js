@@ -33,3 +33,6 @@ function check(){
 x++
 
 }
+function gewonnen(){
+	
+}
