@@ -1,1 +1,2 @@
-# B2W19O1a---Lingo
+# LINGO
+this code let you play lingo 
