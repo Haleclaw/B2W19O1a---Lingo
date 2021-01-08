@@ -15,21 +15,20 @@ function check(){
      // controleer of het goed is // wordt groen //
      for (i=0;i<word.length;i++) {
         if (letter[i] == word[i]) {
-        document.getElementById("Box"+x+i).innerHTML = letter[i];
-        document.getElementById("Box"+x+i).style.backgroundColor = "green"
-        document.getElementById('Box'+x+i).style.borderRadius = '0px'
+        	document.getElementById("Box"+x+i).innerHTML = letter[i];
+        	document.getElementById("Box"+x+i).style.backgroundColor = "green"
+        	document.getElementById('Box'+x+i).style.borderRadius = '0px'
     }
      // controleer of de letter er wel in het woord zit // dan word het geel //
 
              else if (word.includes(letter[i])) {
-       
-             	 document.getElementById("Box"+x+i).style.backgroundColor = "yellow"
-             	 document.getElementById('Box'+x+i).style.borderRadius = '90px'
-             	 document.getElementById("Box"+x+i).innerHTML = letter[i];	
+             	document.getElementById("Box"+x+i).style.backgroundColor = "yellow"
+             	document.getElementById('Box'+x+i).style.borderRadius = '90px'
+             	document.getElementById("Box"+x+i).innerHTML = letter[i];	
              }
              else{
-             	 document.getElementById("Box"+x+i).style.backgroundColor = "white"
-             	 document.getElementById('Box'+x+i).style.borderRadius = '0px'
+             	document.getElementById("Box"+x+i).style.backgroundColor = "white"
+             	document.getElementById('Box'+x+i).style.borderRadius = '0px'
              	 
              	 if ( letter[i] == undefined){
              	 	document.getElementById("Box"+x+i).innerHTML = "?"
